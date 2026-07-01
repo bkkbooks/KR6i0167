@@ -1,0 +1,17 @@
+canonical_identifier: bkk:krp/KR6i0167/t/v1/juan/0
+seq: 0
+front:
+  text: ''
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+body:
+  text: ''
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 佛說越難經
+  edition:
+    short: t
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/T/T14/T14n0537.xml
+    old_id: T14n0537
+hash: sha256:0c9806ee4a1ff9b1f38a61e98ec18adb4e748aff12765d833a6109ae264224ce

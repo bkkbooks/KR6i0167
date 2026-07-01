@@ -1,0 +1,38 @@
+canonical_identifier: bkk:krp/KR6i0167/T/v1
+canonical_location: https://kanripo.org/bkk/KR6i0167/T/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 佛說越難經
+  identifiers:
+    krp: KR6i0167
+    cbeta: T14n0537
+    cbeta_old_id: T14n0537
+    authorityid: CA0003902
+    json_key: T0537
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/T/T14/T14n0537.xml
+    old_id: T14n0537
+  edition:
+    short: T
+assets:
+  parts:
+  - {seq: 0, filename: KR6i0167_000-T.yaml, hash: 'sha256:0c9806ee4a1ff9b1f38a61e98ec18adb4e748aff12765d833a6109ae264224ce'}
+  - {seq: 1, filename: KR6i0167_001-T.yaml, hash: 'sha256:d3b07808d39866bbec46222d9b9792751b6f801e4fda1b4582f8d25adf4219d7'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR6i0167_000-T.markers.yaml, hash: 'sha256:41ec946e1c0a7de4a013b0bda45caaed9d6cbd2e1208209ca987821fb72498aa'}
+  - {seq: 1, role: markers, filename: assets/KR6i0167_001-T.markers.yaml, hash: 'sha256:647731b7209bbf44750a84071738535de295ad361f48684b5f348de38e34e020'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR6i0167_T_001-juan-start
+    span:
+    - body
+    - 0
+    - 728
+  label: 佛說越難經
+  type: juan
+  level: 1
+hash: sha256:4d64762276c3548362df4f7c89cd51b55675c6103d059bcf60b4b683ea9b7f09

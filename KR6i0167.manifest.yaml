@@ -1,0 +1,51 @@
+canonical_identifier: bkk:krp/KR6i0167/v1
+canonical_location: https://kanripo.org/bkk/KR6i0167/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 佛說越難經
+  identifiers:
+    alt_id:
+    - T14n0537
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/T/T14/T14n0537.xml
+    old_id: T14n0537
+  edition:
+    short: bkk
+editions:
+- short: 宋
+  label: 宋
+  source_xml_id: wit1
+- short: 元
+  label: 元
+  source_xml_id: wit2
+- short: 明
+  label: 明
+  source_xml_id: wit3
+- short: 宮
+  label: 宮
+  source_xml_id: wit4
+- short: T
+assets:
+  parts:
+  - {seq: 0, filename: KR6i0167_000.yaml, hash: 'sha256:0c9806ee4a1ff9b1f38a61e98ec18adb4e748aff12765d833a6109ae264224ce'}
+  - {seq: 1, filename: KR6i0167_001.yaml, hash: 'sha256:6d0ad40bd515e617c167ad2dba6dc753070af1faba1123408e5062a636f4b003'}
+  markers:
+  - {seq: 1, role: markers, filename: assets/KR6i0167_001.markers.yaml, hash: 'sha256:28455ff3ccbb8800ca87eb5f86e5bd5d82efb00b33549fd25316fccd5c9237a6'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR6i0167_T_001-juan-start
+    span:
+    - body
+    - 0
+    - 728
+  label: 佛說越難經
+  type: juan
+  level: 1
+hash: sha256:5afae85b29e1ccb3099ee6d0248e09267037dfd98b2ac87e99ab69a7c303ae6e
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
