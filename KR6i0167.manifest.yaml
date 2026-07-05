@@ -31,9 +31,10 @@ editions:
 assets:
   parts:
   - {seq: 0, filename: KR6i0167_000.yaml, hash: 'sha256:0c9806ee4a1ff9b1f38a61e98ec18adb4e748aff12765d833a6109ae264224ce'}
-  - {seq: 1, filename: KR6i0167_001.yaml, hash: 'sha256:6d0ad40bd515e617c167ad2dba6dc753070af1faba1123408e5062a636f4b003'}
+  - {seq: 1, filename: KR6i0167_001.yaml, hash: 'sha256:d3b07808d39866bbec46222d9b9792751b6f801e4fda1b4582f8d25adf4219d7'}
   markers:
-  - {seq: 1, role: markers, filename: assets/KR6i0167_001.markers.yaml, hash: 'sha256:28455ff3ccbb8800ca87eb5f86e5bd5d82efb00b33549fd25316fccd5c9237a6'}
+  - {seq: 0, role: markers, filename: assets/KR6i0167_000.markers.yaml, hash: 'sha256:cab8a3a25cd1d3231ad74a762d4308b129f0610239f15d2d2095a852d114d490'}
+  - {seq: 1, role: markers, filename: assets/KR6i0167_001.markers.yaml, hash: 'sha256:f2c800038e4cd4f5973a6cf116feaa9bcfd112a946554c0947f917a584dec863'}
 table_of_contents:
 - ref:
     seq: 1
@@ -45,7 +46,4 @@ table_of_contents:
   label: 佛說越難經
   type: juan
   level: 1
-hash: sha256:5afae85b29e1ccb3099ee6d0248e09267037dfd98b2ac87e99ab69a7c303ae6e
-mappings:
-- canonical_identifier: bkk:mapping/variant-fold-v1
-  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
+hash: sha256:2974620c03fab0796ca6bb64aaf1f897c1bf63dc4a712bb607ba0ceb2e457434
