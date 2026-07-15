@@ -2,7 +2,7 @@ canonical_identifier: bkk:krp/KR6i0167/v1
 canonical_location: https://kanripo.org/bkk/KR6i0167/v1
 canonical_set:
   identifier: bkk:charset/cjk-v1
-  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+  hash: sha256:37995e65f5e6cdc8cfbc980fea50ec86663e3e7de950809f7e37f003754b3227
 metadata:
   title: 佛說越難經
   identifiers:
@@ -31,10 +31,10 @@ editions:
 assets:
   parts:
   - {seq: 0, filename: KR6i0167_000.yaml, hash: 'sha256:0c9806ee4a1ff9b1f38a61e98ec18adb4e748aff12765d833a6109ae264224ce'}
-  - {seq: 1, filename: KR6i0167_001.yaml, hash: 'sha256:d3b07808d39866bbec46222d9b9792751b6f801e4fda1b4582f8d25adf4219d7'}
+  - {seq: 1, filename: KR6i0167_001.yaml, hash: 'sha256:5c10fc311077454e58ab2628ad71a69ce2f2bb736d8b31c5976a9e18c3581a6a'}
   markers:
   - {seq: 0, role: markers, filename: assets/KR6i0167_000.markers.yaml, hash: 'sha256:cab8a3a25cd1d3231ad74a762d4308b129f0610239f15d2d2095a852d114d490'}
-  - {seq: 1, role: markers, filename: assets/KR6i0167_001.markers.yaml, hash: 'sha256:f2c800038e4cd4f5973a6cf116feaa9bcfd112a946554c0947f917a584dec863'}
+  - {seq: 1, role: markers, filename: assets/KR6i0167_001.markers.yaml, hash: 'sha256:97de2903bbb7da8b858a45388ac5cd250923d2bc53ff324365dfa5aae800e42b'}
 table_of_contents:
 - ref:
     seq: 1
@@ -46,4 +46,7 @@ table_of_contents:
   label: 佛說越難經
   type: juan
   level: 1
-hash: sha256:2974620c03fab0796ca6bb64aaf1f897c1bf63dc4a712bb607ba0ceb2e457434
+hash: sha256:eee24b929f029703fc0bf851c246d0bd72b2842f11deaeaac1a2e9b7901f723f
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:9bc9a4233a10ab6fe6494b31262c157187fd580f02a97cad91be81ccd48f7a20
